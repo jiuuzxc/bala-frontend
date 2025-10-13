@@ -17,7 +17,7 @@ const Developers = ({ theme }) => {
                     <motion.div initial={{opacity: 0, y: 30}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: index * 0.2}} viewport={{once: true}} 
                     key={index} onClick={()=>handleClick(dev.link)} className="cursor-pointer flex max-sm:flex-col item-center gap-5 p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5 hover:scale-103 transition-all duration-400 mb-5">
                         <img src={dev.image} className="w-20 rounded-full m-auto" alt=""/>
-                        <div className="flex-1 min-w-0 text-center sm:text-left w-full">
+                        <div className="flex flex-col justify-center flex-1 min-w-0 text-center sm:text-left w-full">
                             <h3 className="font-bold text-sm">{dev.name}</h3>
                             <p className="text-xs opacity-60">{dev.title}</p>
                             <p className="text-xs opacity-60 truncate sm:whitespace-normal">{dev.email}</p>

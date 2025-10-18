@@ -1,6 +1,5 @@
 import logo from './logo.png'
 import arrow_icon from './arrow_icon.svg'
-import hero_img from './hero_img.png'
 import menu_icon from './menu_icon.svg'
 import close_icon from './close_icon.svg'
 import logo_dark from './logo_dark.png'
@@ -18,8 +17,17 @@ import serrano from './serrano.png'
 import ysais from './ysais.png'
 import github from './github.png'
 import github_dark from './github_dark.png'
+import demoBala from './demoHero.mp4'
+import userManual from './userManual.pdf'
+import balaExe from './bala_1.0.exe'
+import balaRpm from './bala_1.0.rpm'
+import balaDeb from './bala_1.0.deb'
+import balaLinux from './bala-1.0-linux.tar.gz'
+import balaMac from './bala-1.0-mac.tar.gz'
+import balaWindows from './bala-1.0-windows.zip'
 
-export const algorithm_logo = {
+
+export const algorithmLogo = {
   perlin,
   simplex,
   circle,
@@ -27,25 +35,41 @@ export const algorithm_logo = {
   flocking
 }
 
-const assets = {
-  logo,
+export const icons = {
   arrow_icon,
-  hero_img,
-  menu_icon,
   close_icon,
-  logo_dark,
+  menu_icon,
   menu_icon_dark,
   sun_icon,
-  moon_icon,
+  moon_icon
+}
+
+export const files = {
+  demoBala,
+  userManual,
+  balaExe,
+  balaRpm,
+  balaDeb,
+  balaLinux,
+  balaMac,
+  balaWindows
+}
+
+export const appLogo = {
+  logo,
+  logo_dark,
   github,
   github_dark
 }
-
-export default assets
 
 export const devData = [
   { name: 'Julian Mathew M. Guintu', title: 'Bachelor of Science in Computer Science', email: 'jmm.guintu@gmail.com', link: "https://www.linkedin.com/in/jiuzxc/", image: guintu },
   { name: 'Gabriel V. Pagcu', title: 'Bachelor of Science in Computer Science', email: 'gabgab0518@gmail.com', link: "https://www.linkedin.com/in/gabriel-pagcu-340286322/", image: pagcu },
   { name: 'Aidan Zabdiel A. Serrano', title: 'Bachelor of Science in Computer Science', email: 'aidanserrano122703@gmail.com', link: "https://www.linkedin.com/in/aidan-serrano-929b54320/", image: serrano },
-  { name: 'Carlos Jose B. Ysais', title: 'Bachelor of Science in Computer Science', email: 'carlos.ysais@gmail.com', link: "https://github.com/aiaiaiex", image: ysais },
+  { name: 'Carlos Jose B. Ysais', title: 'Bachelor of Science in Computer Science', email: 'carlos.ysais@gmail.com', link: "https://github.com/aiaiaiex", image: ysais }
+]
+
+export const githubLinks = [
+  { name: 'GitHub Repository (Game Engine)', link: 'https://github.com/aiaiaiex/bala'},
+  { name: 'GitHub Repository (Frontend)', link: 'https://github.com/jiuuzxc/bala-frontend'}
 ]

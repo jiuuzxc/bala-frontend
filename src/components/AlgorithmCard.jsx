@@ -1,5 +1,5 @@
 import { useRef, useState } from "react"
-import {motion} from 'motion/react';
+import { motion } from 'motion/react'
 
 const AlgorithmCard = ({algorithm, index}) => {
 

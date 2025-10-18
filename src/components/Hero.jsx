@@ -1,5 +1,5 @@
-import assets from '../assets/assets';
-import {motion} from 'motion/react';
+import { files } from '../assets/assets';
+import { motion } from 'motion/react';
 
 const Hero = () => {
     return (
@@ -12,7 +12,7 @@ const Hero = () => {
 
             <motion.div initial={{opacity: 0, y: 0.9}} whileInView={{opacity: 1, y: 1}} transition={{duration: 0.6, delay: 1.5}} viewport={{once: true}}
             className="relative">
-                <img src={assets.hero_img} alt="" className="w-full max-w-6x1"/>
+                <video className="VideoTag w-full aspect-video h-[300px] sm:h-[450px] md:h-[600px] lg:h-[450px] xl:h-[600px] shadow-lg rounded-lg mb-5" autoPlay loop muted src={files.demoBala} type="video/mp4" alt=""/>
             </motion.div>
         </div>
     )

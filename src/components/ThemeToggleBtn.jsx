@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import assets from '../assets/assets';
+import { icons } from '../assets/assets';
 
 const ThemeToggleBtn = ({ theme, setTheme }) => {
 
@@ -9,9 +9,9 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
     },[])
 
     useEffect(()=>{
-        if(theme === 'dark'){
+        if (theme === 'dark'){
             document.documentElement.classList.add('dark')
-        }else{
+        } else{
             document.documentElement.classList.remove('dark')
         }
         localStorage.setItem('theme', theme)
@@ -21,13 +21,13 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
         <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
         {theme === 'dark' ? (
             <img
-            src={assets.sun_icon}
+            src={icons.sun_icon}
             className="size-8.5 p-1.5 border border-gray-500 rounded-full"
             alt="light mode"
             />
         ) : (
             <img
-            src={assets.moon_icon}
+            src={icons.moon_icon}
             className="size-8.5 p-1.5 border border-gray-500 rounded-full"
             alt="dark mode"
             />

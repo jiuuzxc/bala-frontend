@@ -1,5 +1,4 @@
 import logo from './logo.png'
-import arrow_icon from './arrow_icon.svg'
 import menu_icon from './menu_icon.svg'
 import close_icon from './close_icon.svg'
 import logo_dark from './logo_dark.png'
@@ -36,7 +35,6 @@ export const algorithmLogo = {
 }
 
 export const icons = {
-  arrow_icon,
   close_icon,
   menu_icon,
   menu_icon_dark,

@@ -39,18 +39,8 @@ const Navbar = ({ theme, setTheme }) => {
 
         <div className="sm:hidden mt-3 relative" ref={dropdownRef}>
           <div className="flex items-center">
-            <a
-              href={files.balaExe}
-              className="text-sm flex items-center gap-2 bg-white text-primary font-semibold px-6 py-2 rounded-l-full cursor-pointer hover:scale-105 transition-all"
-              download
-            >
-              Download
-            </a>
-            <button
-              onClick={() => setsplitbuttonOpen(!splitbuttonOpen)}
-              className="bg-white text-primary font-bold px-3 py-1.5 rounded-r-full hover:scale-105 transition-all cursor-pointer ml-0.5"
-            >
-              ▼
+            <a href={files.balaExe} className="text-sm flex items-center gap-2 bg-white text-primary font-semibold px-6 py-2 rounded-l-full cursor-pointer hover:scale-105 transition-all" download>Download</a>
+            <button onClick={() => setsplitbuttonOpen(!splitbuttonOpen)} className="bg-white text-primary font-bold px-3 py-1.5 rounded-r-full hover:scale-105 transition-all cursor-pointer ml-0.5">▼
             </button>
           </div>
         </div>

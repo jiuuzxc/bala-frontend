@@ -18,13 +18,6 @@ import github from './github.png'
 import github_dark from './github_dark.png'
 import demoBala from './demoHero.mp4'
 import userManual from './userManual.pdf'
-import balaExe from './bala_1.0.exe'
-import balaRpm from './bala_1.0.rpm'
-import balaDeb from './bala_1.0.deb'
-import balaLinux from './bala-1.0-linux.tar.gz'
-import balaMac from './bala-1.0-mac.tar.gz'
-import balaWindows from './bala-1.0-windows.zip'
-
 
 export const algorithmLogo = {
   perlin,
@@ -45,12 +38,12 @@ export const icons = {
 export const files = {
   demoBala,
   userManual,
-  balaExe,
-  balaRpm,
-  balaDeb,
-  balaLinux,
-  balaMac,
-  balaWindows
+  balaExe: '/installers/bala_1.0.exe',
+  balaRpm: '/installers/bala_1.0.rpm',
+  balaDeb: '/installers/bala_1.0.deb',
+  balaLinux: '/installers/bala-1.0-linux.tar.gz',
+  balaMac: '/installers/bala-1.0-mac.tar.gz',
+  balaWindows: '/installers/bala-1.0-windows.zip'
 }
 
 export const appLogo = {

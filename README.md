@@ -15,65 +15,65 @@
 
 - Use this command to build the Docker image and tag it as <code>bala-frontend:v1.0</code>.
 
-'''
+```
 docker build . -t "bala-frontend:v1.0"
-'''
+```
 
 <p>2. View Docker Images</p>
 
 - Use this command to list all Docker images available on your system.
 
-'''
+```
 docker images
-'''
+```
 
 <p>3. Run the Docker Container</p>
 
 - Run the Docker container and map port <code>5796</code> from the container to your local machine.
 
-'''
+```
 docker run -p 5796:5796 bala-frontend:v1.0
-'''
+```
 
 <p>4. View Running Containers</p>
 
 - Use this command to display all currently running containers.
 
-'''
+```
 docker ps
-'''
+```
 
 <p>5. Stop the Running Container</p>
 
 - Stop the running container using its container ID or name.
 
-'''
+```
 docker stop bala-frontend:v1.0
-'''
+```
 
 <p>6. Remove the Stopped Container</p>
 
 - Use this command to remove the stopped container from your system.
 
-'''
+```
 docker rm bala-frontend:v1.0
-'''
+```
 
 <p>7. Remove the Docker Image</p>
 
 - Remove the Docker image from your system to free up space.
 
-'''
+```
 docker rmi bala-frontend:v1.0
-'''
+```
 
 <p>8. (Optional) Clean Up All Unused Data</p>
 
 - Use this command to remove all unused containers, networks, images, and cache.
 
-'''
+```
 docker system prune -a
-'''
+```
 
 <p>📘 For more detailed setup instructions, please refer to the <a href="./src/assets/userManual.pdf" target="_blank"><strong>BALA Official User Manual</strong></a> and <a href="https://youtu.be/OgHXvgHwgFo?si=_6pBDtCqPHzYogJq" target="_blank"><strong>BALA Official Video Demonstration</strong></a>.</p>
 
